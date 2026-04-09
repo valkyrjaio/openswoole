@@ -1,6 +1,18 @@
-# valkyrja/openswoole
+<p align="center"><a href="https://valkyrja.io" target="_blank">
+    <img src="https://raw.githubusercontent.com/valkyrjaio/art/refs/heads/master/full-logo/orange/php.png" width="400">
+</a></p>
+
+# Valkyrja OpenSwoole
 
 OpenSwoole persistent worker entry point for the [Valkyrja Framework](https://www.valkyrja.io).
+
+About
+-----
+
+> This repository provides the OpenSwoole persistent worker entry point for the Valkyrja Framework.
+
+Bootstraps the application once at startup, then dispatches every incoming request to an
+isolated child container — so request state never bleeds between concurrent requests.
 
 ## Installation
 
@@ -8,7 +20,7 @@ OpenSwoole persistent worker entry point for the [Valkyrja Framework](https://ww
 composer require valkyrja/openswoole
 ```
 
-Requires the [OpenSwoole](https://openswoole.com) extension (`openswoole/core ^26.2.0`).
+Requires the [OpenSwoole](https://openswoole.com/) extension (`openswoole/core ^26.2.0`).
 
 ## Usage
 
@@ -22,9 +34,9 @@ OpenSwooleHttp::run(new HttpConfig(
 ));
 ```
 
-`run()` bootstraps the application once, starts an OpenSwoole HTTP server, and
-handles each incoming request in an isolated child container so state never
-bleeds between requests.
+`run()` bootstraps the application once when the worker process starts, then
+starts the OpenSwoole HTTP server. Each request is handled in an isolated child
+container so state never bleeds between requests.
 
 ## Customising the Server
 
@@ -34,7 +46,7 @@ Override `getSwooleServer()` to configure the server address, port, or options:
 use OpenSwoole\HTTP\Server;
 use Valkyrja\OpenSwoole\OpenSwooleHttp;
 
-class MyOpenSwooleHttp extends OpenSwooleHttp
+class App extends OpenSwooleHttp
 {
     public static function getSwooleServer(): Server
     {
@@ -59,7 +71,7 @@ use Valkyrja\Application\Kernel\Contract\ApplicationContract;
 use Valkyrja\Http\Routing\Collection\Contract\CollectionContract;
 use Valkyrja\OpenSwoole\OpenSwooleHttp;
 
-class MyOpenSwooleHttp extends OpenSwooleHttp
+class App extends OpenSwooleHttp
 {
     protected static function bootstrapParentServices(ApplicationContract $app): void
     {
@@ -72,7 +84,7 @@ class MyOpenSwooleHttp extends OpenSwooleHttp
 
 ## Worker Lifecycle
 
-See the [Valkyrja Application README](https://github.com/valkyrja/valkyrja) for
+See the [Valkyrja Framework README](https://github.com/valkyrjaio/valkyrja) for
 a full explanation of the persistent worker lifecycle, the child container
 isolation model, and configuration options.
 
