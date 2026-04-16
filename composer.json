@@ -36,11 +36,46 @@
       "Valkyrja\\OpenSwoole\\Tests\\" : "tests/Tests"
     }
   },
+  "scripts"           : {
+    "phparkitect"                                 : "cd .github/ci/phparkitect && composer check",
+    "phparkitect-outdated-check"                  : "cd .github/ci/phparkitect && composer install && composer outdated --direct --minor-only",
+    "phparkitect-outdated-check-major-release"    : "cd .github/ci/phparkitect && composer install && composer outdated --direct",
+    "phparkitect-composer-update"                 : "cd .github/ci/phparkitect && composer update",
+    "phpcodesniffer"                              : "cd .github/ci/phpcodesniffer && composer check",
+    "phpcodesniffer-outdated-check"               : "cd .github/ci/phpcodesniffer && composer install && composer outdated --direct --minor-only",
+    "phpcodesniffer-outdated-check-major-release" : "cd .github/ci/phpcodesniffer && composer install && composer outdated --direct",
+    "phpcodesniffer-composer-update"              : "cd .github/ci/phpcodesniffer && composer update",
+    "phpcsfixer"                                  : "cd .github/ci/phpcsfixer && composer fix",
+    "phpcsfixer-check"                            : "cd .github/ci/phpcsfixer && composer check",
+    "phpcsfixer-outdated-check"                   : "cd .github/ci/phpcsfixer && composer install && composer outdated --direct --minor-only",
+    "phpcsfixer-outdated-check-major-release"     : "cd .github/ci/phpcsfixer && composer install && composer outdated --direct",
+    "phpcsfixer-composer-update"                  : "cd .github/ci/phpcsfixer && composer update",
+    "phpstan"                                     : "cd .github/ci/phpstan && composer check",
+    "phpstan-outdated-check"                      : "cd .github/ci/phpstan && composer install && composer outdated --direct --minor-only",
+    "phpstan-outdated-check-major-release"        : "cd .github/ci/phpstan && composer install && composer outdated --direct",
+    "phpstan-composer-update"                     : "cd .github/ci/phpstan && composer update",
+    "phpunit"                                     : "cd .github/ci/phpunit && composer check",
+    "phpunit-coverage"                            : "cd .github/ci/phpunit && composer coverage",
+    "phpunit-outdated-check"                      : "cd .github/ci/phpunit && composer install && composer outdated --direct --minor-only",
+    "phpunit-outdated-check-major-release"        : "cd .github/ci/phpunit && composer install && composer outdated --direct",
+    "phpunit-composer-update"                     : "cd .github/ci/phpunit && composer update",
+    "psalm"                                       : "cd .github/ci/psalm && composer check",
+    "psalm-no-cache"                              : "cd .github/ci/psalm && composer no-cache",
+    "psalm-shepherd"                              : "cd .github/ci/psalm && composer shepherd",
+    "psalm-shepherd-with-stats"                   : "cd .github/ci/psalm && composer shepherd-with-stats",
+    "psalm-stats"                                 : "cd .github/ci/psalm && composer stats",
+    "psalm-update-baseline"                       : "cd .github/ci/psalm && composer update-baseline",
+    "psalm-outdated-check"                        : "cd .github/ci/psalm && composer install && composer outdated --direct --minor-only",
+    "psalm-outdated-check-major-release"          : "cd .github/ci/psalm && composer install && composer outdated --direct",
+    "psalm-composer-update"                       : "cd .github/ci/psalm && composer update",
+    "rector"                                      : "cd .github/ci/rector && composer fix",
+    "rector-check"                                : "cd .github/ci/rector && composer check",
+    "rector-outdated-check"                       : "cd .github/ci/rector && composer install && composer outdated --direct --minor-only",
+    "rector-outdated-check-major-release"         : "cd .github/ci/rector && composer install && composer outdated --direct",
+    "rector-composer-update"                      : "cd .github/ci/rector && composer update",
+    "root-outdated-check"                         : "composer install && composer outdated --direct --minor-only",
+    "root-outdated-check-major-release"           : "composer install && composer outdated --direct"
+  },
   "minimum-stability" : "dev",
-  "prefer-stable"     : true,
-  "extra"             : {
-    "branch-alias" : {
-      "dev-master" : "26.x-dev"
-    }
-  }
+  "prefer-stable"     : true
 }
