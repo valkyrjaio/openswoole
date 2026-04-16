@@ -15,6 +15,7 @@ jobs:
       contents: read
     with:
       php-version: '8.4'
+      extensions: 'mbstring, intl, openswoole'
       paths: |
         ci:
           - '.github/ci/phpcsfixer/**'
