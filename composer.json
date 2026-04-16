@@ -28,7 +28,12 @@
   },
   "autoload"          : {
     "psr-4" : {
-      "Valkyrja\\OpenSwoole\\" : "src/Valkyrja/OpenSwoole"
+      "Valkyrja\\OpenSwoole\\" : "src/OpenSwoole"
+    }
+  },
+  "autoload-dev"      : {
+    "psr-4" : {
+      "Valkyrja\\OpenSwoole\\Tests\\" : "tests/Tests"
     }
   },
   "minimum-stability" : "dev",
