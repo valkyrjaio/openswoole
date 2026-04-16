@@ -17,6 +17,7 @@ jobs:
       php-versions: '["8.4", "8.5", "8.6"]'
       php-version-bleeding-edge: '8.6'
       extensions: 'mbstring, intl, sodium, fileinfo, pdo, php-mysql, php-sqlite3, php-pgsql, pdo_sqlite, pdo_pgsql, pdo_mysql xdebug'
+      composer-options: '--ignore-platform-req=ext-openswoole'
       paths: |
         ci:
           - '.github/ci/phpunit/**'
