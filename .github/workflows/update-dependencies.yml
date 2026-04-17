@@ -13,7 +13,7 @@ jobs:
       php-version: '8.4'
       dependencies: |
         [
-          {"name": "Root",           "command": "update",                         "directory": "."},
+          {"name": "Root",           "command": "update --ignore-platform-req=ext-openswoole", "directory": "."},
           {"name": "PHPArkitect",    "command": "phparkitect-composer-update",    "directory": ".github/ci/phparkitect"},
           {"name": "PHPCodeSniffer", "command": "phpcodesniffer-composer-update", "directory": ".github/ci/phpcodesniffer"},
           {"name": "PHP-CS-Fixer",   "command": "phpcsfixer-composer-update",     "directory": ".github/ci/phpcsfixer"},
