@@ -9,11 +9,11 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.49",
+            "version": "2.1.50",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d0082955396e7f5ba19cf298224b85e1099f0ed8",
-                "reference": "d0082955396e7f5ba19cf298224b85e1099f0ed8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d452086fb4cf648c6b2d8cf3b639351f79e4f3e2",
+                "reference": "d452086fb4cf648c6b2d8cf3b639351f79e4f3e2",
                 "shasum": ""
             },
             "require": {
@@ -58,7 +58,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-16T21:10:58+00:00"
+            "time": "2026-04-17T13:10:32+00:00"
         },
         {
             "name": "psr/container",
@@ -324,21 +324,21 @@
         },
         {
             "name": "valkyrja/phpstan",
-            "version": "v26.1.0",
+            "version": "v26.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/phpstan.git",
-                "reference": "7b63ec22c6bb9131aff27993a4ddc29556f0edb0"
+                "reference": "f3b678de9c71620572278d9bc09030d5812f00c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/phpstan/zipball/7b63ec22c6bb9131aff27993a4ddc29556f0edb0",
-                "reference": "7b63ec22c6bb9131aff27993a4ddc29556f0edb0",
+                "url": "https://api.github.com/repos/valkyrjaio/phpstan/zipball/f3b678de9c71620572278d9bc09030d5812f00c4",
+                "reference": "f3b678de9c71620572278d9bc09030d5812f00c4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.4",
-                "phpstan/phpstan": "^2.1.48"
+                "phpstan/phpstan": "^2.1.49"
             },
             "type": "project",
             "autoload": {
@@ -365,9 +365,9 @@
             ],
             "support": {
                 "issues": "https://github.com/valkyrjaio/phpstan/issues",
-                "source": "https://github.com/valkyrjaio/phpstan/tree/v26.1.0"
+                "source": "https://github.com/valkyrjaio/phpstan/tree/v26.1.1"
             },
-            "time": "2026-04-16T04:41:44+00:00"
+            "time": "2026-04-17T03:50:48+00:00"
         },
         {
             "name": "valkyrja/valkyrja",
@@ -375,12 +375,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja.git",
-                "reference": "3226ee5cd8faae6a7c33e4be7e090929bc23785b"
+                "reference": "24f965ac2abbf4415084c09527eccae4d168dda6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja/zipball/3226ee5cd8faae6a7c33e4be7e090929bc23785b",
-                "reference": "3226ee5cd8faae6a7c33e4be7e090929bc23785b",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja/zipball/24f965ac2abbf4415084c09527eccae4d168dda6",
+                "reference": "24f965ac2abbf4415084c09527eccae4d168dda6",
                 "shasum": ""
             },
             "require": {
@@ -393,7 +393,7 @@
             },
             "conflict": {
                 "filp/whoops": "<2.18.4",
-                "firebase/php-jwt": "<7.0.4",
+                "firebase/php-jwt": "<7.0.5",
                 "guzzlehttp/guzzle": "<7.10.0",
                 "league/flysystem": "<3.33.0",
                 "league/flysystem-aws-s3-v3": "<3.32.0",
@@ -403,11 +403,11 @@
                 "predis/predis": "<3.4.2",
                 "pusher/pusher-php-server": "<7.2.7",
                 "twig/twig": "<3.24.0",
-                "vonage/client-core": "<4.12.0"
+                "vonage/client-core": "<4.13.0"
             },
             "require-dev": {
                 "filp/whoops": "^2.18.4",
-                "firebase/php-jwt": "^7.0.4",
+                "firebase/php-jwt": "^7.0.5",
                 "guzzlehttp/guzzle": "^7.10.0",
                 "league/flysystem": "^3.33.0",
                 "league/flysystem-aws-s3-v3": "^3.32.0",
@@ -417,7 +417,7 @@
                 "predis/predis": "^3.4.2",
                 "pusher/pusher-php-server": "^7.2.7",
                 "twig/twig": "^3.24.0",
-                "vonage/client-core": "^4.12.0"
+                "vonage/client-core": "^4.13.0"
             },
             "suggest": {
                 "ext-curl": "Required to use the default Client adapter (*)",
@@ -425,7 +425,7 @@
                 "ext-redis": "Required to use the default Cache store (^4.0|^5.0).",
                 "ext-sodium": "Required to use the default Crypt adapters and/or JWT EdDSA Algorithm (*)",
                 "filp/whoops": "Required to use the default Throwable handler (^2.18.4)",
-                "firebase/php-jwt": "Required to use the default Jwt adapter (^7.0.4)",
+                "firebase/php-jwt": "Required to use the default Jwt adapter (^7.0.5)",
                 "guzzlehttp/guzzle": "Required to use the default Client adapter (^7.10.0).",
                 "league/flysystem": "Required to use the default Filesystem adapter (^3.33.0).",
                 "league/flysystem-aws-s3-v3": "Required to use the s3 Filesystem adapter (^3.32.0)",
@@ -435,7 +435,7 @@
                 "predis/predis": "Required to use the Redis Cache store (^3.4.2).",
                 "pusher/pusher-php-server": "Required to use the Pusher Broadcast adapter (^7.2.7).",
                 "twig/twig": "Required to use the Twig View engine (^3.24.0).",
-                "vonage/client-core": "Required to use the default SMS adapter (^4.12.0)."
+                "vonage/client-core": "Required to use the default SMS adapter (^4.13.0)."
             },
             "default-branch": true,
             "bin": [
@@ -467,7 +467,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja/tree/26.x"
             },
-            "time": "2026-04-17T00:18:51+00:00"
+            "time": "2026-04-17T23:07:25+00:00"
         }
     ],
     "aliases": [],
