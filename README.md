@@ -45,7 +45,7 @@ Build Status
                 <a href="https://github.com/valkyrjaio/openswoole/actions/workflows/phparkitect.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/openswoole/actions/workflows/phparkitect.yml/badge.svg?branch=master" alt="PHPArkitect Build Status"></a>
             </td>
             <td>
-                <a href="https://github.com/valkyrjaio/openswoole/actions/workflows/openswoole.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/openswoole/actions/workflows/openswoole.yml/badge.svg?branch=master" alt="Rector Build Status"></a>
+                <a href="https://github.com/valkyrjaio/openswoole/actions/workflows/rector.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/openswoole/actions/workflows/rector.yml/badge.svg?branch=master" alt="Rector Build Status"></a>
             </td>
         </tr>
         <tr>
