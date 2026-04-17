@@ -3,7 +3,7 @@
     "php" : ">=8.4"
   },
   "require-dev"       : {
-    "valkyrja/phpstan"    : "^26.1.0",
+    "valkyrja/phpstan"    : "^26.1.1",
       "valkyrja/valkyrja" : "26.x-dev"
   },
   "scripts"           : {
