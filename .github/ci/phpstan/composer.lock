@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d75fead4cb5715211c0983a17b0ab18",
+    "content-hash": "94def693e5ef7ed30fa914ec0334d2bc",
     "packages": [],
     "packages-dev": [
         {
@@ -327,12 +327,12 @@
             "version": "v26.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/valkyrjaio/phpstan.git",
+                "url": "https://github.com/valkyrjaio/ci-phpstan-php.git",
                 "reference": "f3b678de9c71620572278d9bc09030d5812f00c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/phpstan/zipball/f3b678de9c71620572278d9bc09030d5812f00c4",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-phpstan-php/zipball/f3b678de9c71620572278d9bc09030d5812f00c4",
                 "reference": "f3b678de9c71620572278d9bc09030d5812f00c4",
                 "shasum": ""
             },
@@ -364,8 +364,8 @@
                 "valkyrja"
             ],
             "support": {
-                "issues": "https://github.com/valkyrjaio/phpstan/issues",
-                "source": "https://github.com/valkyrjaio/phpstan/tree/v26.1.1"
+                "issues": "https://github.com/valkyrjaio/ci-phpstan-php/issues",
+                "source": "https://github.com/valkyrjaio/ci-phpstan-php/tree/v26.1.1"
             },
             "time": "2026-04-17T03:50:48+00:00"
         },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b6fc4a0dc9e17dea753db01b05a8973",
+    "content-hash": "d41148ae181e78a677ad5a5aeee1b2d4",
     "packages": [],
     "packages-dev": [
         {
@@ -216,12 +216,12 @@
             "version": "v26.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/valkyrjaio/rector.git",
+                "url": "https://github.com/valkyrjaio/ci-rector-php.git",
                 "reference": "088293583eecdfc094660818a51b15a4699ba2ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/rector/zipball/088293583eecdfc094660818a51b15a4699ba2ba",
+                "url": "https://api.github.com/repos/valkyrjaio/ci-rector-php/zipball/088293583eecdfc094660818a51b15a4699ba2ba",
                 "reference": "088293583eecdfc094660818a51b15a4699ba2ba",
                 "shasum": ""
             },
@@ -254,8 +254,8 @@
                 "valkyrja"
             ],
             "support": {
-                "issues": "https://github.com/valkyrjaio/rector/issues",
-                "source": "https://github.com/valkyrjaio/rector/tree/v26.1.1"
+                "issues": "https://github.com/valkyrjaio/ci-rector-php/issues",
+                "source": "https://github.com/valkyrjaio/ci-rector-php/tree/v26.1.1"
             },
             "time": "2026-04-17T03:45:52+00:00"
         }
