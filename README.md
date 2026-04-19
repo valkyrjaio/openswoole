@@ -17,9 +17,9 @@ risks of naive long-running PHP.
     <a href="https://packagist.org/packages/valkyrja/openswoole"><img src="https://poser.pugx.org/valkyrja/openswoole/require/php" alt="PHP Version Require"></a>
     <a href="https://packagist.org/packages/valkyrja/openswoole"><img src="https://poser.pugx.org/valkyrja/openswoole/v" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/valkyrja/openswoole"><img src="https://poser.pugx.org/valkyrja/openswoole/license" alt="License"></a>
-    <a href="https://github.com/valkyrjaio/valkyrja-openswoole-php/actions/workflows/ci.yml?query=branch%3Amaster"><img src="https://github.com/valkyrjaio/valkyrja-openswoole-php/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI Status"></a>
-    <a href="https://scrutinizer-ci.com/g/valkyrjaio/valkyrja-openswoole-php/?branch=master"><img src="https://scrutinizer-ci.com/g/valkyrjaio/valkyrja-openswoole-php/badges/quality-score.png?b=master" alt="Scrutinizer"></a>
-    <a href="https://coveralls.io/github/valkyrjaio/valkyrja-openswoole-php?branch=master"><img src="https://coveralls.io/repos/github/valkyrjaio/valkyrja-openswoole-php/badge.svg?branch=master" alt="Coverage Status" /></a>
+    <a href="https://github.com/valkyrjaio/valkyrja-openswoole-php/actions/workflows/ci.yml?query=branch%3A26.x"><img src="https://github.com/valkyrjaio/valkyrja-openswoole-php/actions/workflows/ci.yml/badge.svg?branch=26.x" alt="CI Status"></a>
+    <a href="https://scrutinizer-ci.com/g/valkyrjaio/valkyrja-openswoole-php/?branch=26.x"><img src="https://scrutinizer-ci.com/g/valkyrjaio/valkyrja-openswoole-php/badges/quality-score.png?b=26.x" alt="Scrutinizer"></a>
+    <a href="https://coveralls.io/github/valkyrjaio/valkyrja-openswoole-php?branch=26.x"><img src="https://coveralls.io/repos/github/valkyrjaio/valkyrja-openswoole-php/badge.svg?branch=26.x" alt="Coverage Status" /></a>
     <a href="https://shepherd.dev/github/valkyrjaio/valkyrja-openswoole-php"><img src="https://shepherd.dev/github/valkyrjaio/valkyrja-openswoole-php/coverage.svg" alt="Psalm Shepherd" /></a>
     <a href="https://sonarcloud.io/summary/new_code?id=valkyrjaio_openswoole"><img src="https://sonarcloud.io/api/project_badges/measure?project=valkyrjaio_openswoole&metric=sqale_rating" alt="Maintainability Rating" /></a>
 </p>
