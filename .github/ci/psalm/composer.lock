@@ -3323,13 +3323,13 @@
             "version": "26.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/valkyrjaio/valkyrja.git",
-                "reference": "24f965ac2abbf4415084c09527eccae4d168dda6"
+                "url": "https://github.com/valkyrjaio/valkyrja-php.git",
+                "reference": "c79de288fedf90cc708a91975b53abb40e22c8e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja/zipball/24f965ac2abbf4415084c09527eccae4d168dda6",
-                "reference": "24f965ac2abbf4415084c09527eccae4d168dda6",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/c79de288fedf90cc708a91975b53abb40e22c8e0",
+                "reference": "c79de288fedf90cc708a91975b53abb40e22c8e0",
                 "shasum": ""
             },
             "require": {
@@ -3387,9 +3387,6 @@
                 "vonage/client-core": "Required to use the default SMS adapter (^4.13.0)."
             },
             "default-branch": true,
-            "bin": [
-                "bin/valkyrja"
-            ],
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -3413,10 +3410,10 @@
                 "valkyrja"
             ],
             "support": {
-                "issues": "https://github.com/valkyrjaio/valkyrja/issues",
-                "source": "https://github.com/valkyrjaio/valkyrja/tree/26.x"
+                "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
+                "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-04-17T23:07:25+00:00"
+            "time": "2026-04-23T19:38:59+00:00"
         },
         {
             "name": "vimeo/psalm",
