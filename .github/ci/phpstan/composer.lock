@@ -9,11 +9,11 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.51",
+            "version": "2.1.53",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dc3b523c45e714c70de2ac5113b958223b55dc59",
-                "reference": "dc3b523c45e714c70de2ac5113b958223b55dc59",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ef67586798c003274797b288a68b221e4270dca7",
+                "reference": "ef67586798c003274797b288a68b221e4270dca7",
                 "shasum": ""
             },
             "require": {
@@ -58,7 +58,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-21T18:22:01+00:00"
+            "time": "2026-04-28T16:09:00+00:00"
         },
         {
             "name": "psr/container",
@@ -375,12 +375,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/valkyrjaio/valkyrja-php.git",
-                "reference": "aef033cde6b6dcf4214c48c1fd55c665401e36c0"
+                "reference": "59d94729f32fca0ac5ef7b4fab197ec42c046367"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/aef033cde6b6dcf4214c48c1fd55c665401e36c0",
-                "reference": "aef033cde6b6dcf4214c48c1fd55c665401e36c0",
+                "url": "https://api.github.com/repos/valkyrjaio/valkyrja-php/zipball/59d94729f32fca0ac5ef7b4fab197ec42c046367",
+                "reference": "59d94729f32fca0ac5ef7b4fab197ec42c046367",
                 "shasum": ""
             },
             "require": {
@@ -464,7 +464,7 @@
                 "issues": "https://github.com/valkyrjaio/valkyrja-php/issues",
                 "source": "https://github.com/valkyrjaio/valkyrja-php/tree/26.x"
             },
-            "time": "2026-04-26T03:38:44+00:00"
+            "time": "2026-04-28T17:23:10+00:00"
         }
     ],
     "aliases": [],
