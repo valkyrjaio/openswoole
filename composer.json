@@ -21,7 +21,7 @@
     "php"               : ">=8.4",
     "ext-openswoole"    : ">=26.2.0",
     "openswoole/core"   : "^26.2.0",
-    "valkyrja/valkyrja" : "^26.1.0"
+    "valkyrja/valkyrja" : "^26.2.0"
   },
   "conflict"          : {
     "openswoole/core" : "<26.2.0"
